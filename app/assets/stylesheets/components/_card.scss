@@ -37,3 +37,22 @@
   top: -20px;
   width: 40px;
 }
+
+.card-tags {
+  position: absolute;
+  top: 8px;
+  left: 32px;
+  width: 80%;
+  color: white;
+  span {
+    background: $blue;
+    font-size: .7em;
+    padding: 2px 4px;
+    border-radius: 3px;
+  }
+  a {
+    color: $blue;
+    border-color: white;
+    font-weight: bolder;
+  }
+}
